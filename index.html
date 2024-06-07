@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./javascript/script.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="./venobox/venobox.css" type="text/css" media="screen" />
+    <link rel="icon" href="./img/LOGO-title.png">
+    <title>Welcome to Xirapob</title>
+</head>
+<body>
+    <main>
+        <header>
+            <nav>
+                <div class="container">
+                <div class="logo-container">
+                    <a class="logo" href="#home">XIRAPOB</a>
+                </div>
+                <label for="btn" class="icon">
+                   <span class="fa fa-bars"></span>
+                </label>
+                <input type="checkbox" id="btn">
+                <ul class="nav-list">
+                    <li><a class="active" href="#home" ><i  class="fas fa-home fa-xs" style="color: #FFAE00;"></i> หน้าหลัก</a></li>
+                    <li><a class="active" href="#about"><i class="fas fa-user fa-xs" style="color: #FFAE00;"></i> เกี่ยวกับ</a></li>
+                    <li>
+                        <!-- <label for="btn-1" class="show"><i class="fas fa-file-word fa-xs" style="color: #FFAE00;"></i> ผลงาน <i class="fas fa-angle-down fa-xs"></i></label> -->
+                        <a class="active" href="#work"><i class="fas fa-file-word fa-xs" style="color: #FFAE00;"></i> ผลงาน </a>
+                        <!-- <input type="checkbox" id="btn-1"> -->
+                        <!-- <ul>
+                            <li>
+                                <label for="btn-2" class="show2"><i class="fas fa-book-open fa-xs" style="color: #FFAE00;"></i> โปรเจค  <i class="fas fa-angle-down fa-xs"></i></label>
+                                <a href="#"><i class="fas fa-book-open fa-xs" style="color: #FFAE00;"></i> โปรเจค <i class="fas fa-angle-right fa-xs"></i></a>
+                                <input type="checkbox" id="btn-2">
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-university fa-xs" style="color: #FFAE00;"></i><b> CLASSES</b></a></li>
+                                    <li><a href="#"><i class="fab fa-discord fa-xs" style="color: #FFAE00;"></i><b> DISCORD BOT</b></a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><i class="fas fa-photo-video fa-xs" style="color: #FFAE00;"></i> คลิปวิดีโอ</a></li>
+                            <li><a href="#"><i class="fas fa-align-left fa-xs" style="color: #FFAE00;"></i> อื่น ๆ </a></li>
+                        </ul> -->
+                    </li>
+                    <li><a class="active" href="#certificate"><i class="fas fa-certificate fa-xs" style="color: #FFAE00;"></i> เกียรติบัตร</a></li>
+                </ul>
+                </div>
+            </nav>    
+        
+
+            
+            <div class="header-content" id="home">
+                <div class="container grid-2">
+                    <div class="column-1">
+                        <h1 class="header-title">สิรภพ ไกรคุ้ม</h1>
+                        <p class="text hello-text">สวัสดีครับผมชื่อ นายสิรภพ ไกรคุ้ม หรือ มิกซ์ <br>ยินดีต้อนรับเข้าสู่เว็บไซต์พอร์ตฟอลิโอของผมครับ <br>สามารถดูเพื่อรู้เกี่ยวกับตัวผมมากขึ้นได้เลยครับ</p>
+                        <div class="btnmove">
+                        <a data-vbtype="iframe" title="(กด Fit to width หรือ Ctrl + \ เพื่อเห็นไฟล์ได้เต็มหน้าจอ)" href="./works/Pdf/Portfolio.pdf" data-href="./works/Pdf/Portfolio.pdf" class="venobox btn1">ดูพอร์ตโฟลิโอ</a>
+                        </div>
+                    </div>
+
+
+                    <div class="column-2 image">
+                        <img src="./img/Pro_00000.png" class="img-element" alt="">
+                    </div>
+                </div>
+            </div>
+        
+
+        </header>
+
+        <section class="about section" id="about">
+            <div class="background-bg-about">
+            </div>
+            <div class="container">
+                <div class="about-section-header">
+                    <h3 class="title-about" data-title="ABOUT ME">เกี่ยวกับตัวผม</h3>
+                    <div class="text-about">
+                        <div class="container grid-2">
+                            <div class="column-2-about image">
+                                
+                            <img src="./img/Pro_1.png" class="about-img" alt="">
+                                
+                            </div>
+                            
+
+                            <div class="column-1-about">
+                                <h1 class="about-title">XIRAPOB</h1>
+                                <!-- <p class="about-p">สวัสดีครับผมชื่อ นายสิรภพ ไกรคุ้ม (Sirapob Kraikhom) ชื่อเล่น มิกซ์ ปัจจุบันอายุ 20 ปี ผมเป็นคนที่ชื่นชอบในการใช้งานคอมพิวเตอร์มาตั้งแต่เด็ก ๆ 
+                                ตั้งแต่จำความได้ผมได้ใช้คอมครั้งแรกตอนอายุ 5 ปี พี่และพ่อของผมได้ให้ผมลองใช้คอมพิวเตอร์ มันทำให้ผมนั้นรู้สึกตื่นเต้นกับสิ่งนี้มาก ๆ ทำให้ผมอยากจะใช้คอมพิวเตอร์ในทุก ๆ วัน
+                                เพราะสามารถทำอะไรก็ได้ที่เราต้องการที่จะทำ ผมได้เริ่มฝึกตัดต่อตั้งแต่ตอนประถมและฝึกใช้โปรแกรม After Effect มาจนถึงปัจจุบันเป็นระยะเวลากว่า 6 ปี
+                                โปรแกรมที่ใช้งานได้อย่างถนัดมี After Effect , Premiere Pro , Photoshop และอื่น ๆ และผมได้รู้สึกอยากเขียนโปรแกรม 
+                                จึงฝึกฝนการเขียนโปรแกรมตั้งแต่ ม.4 มาจนถึงปัจจุบัน ตอนนี้มีพื้นฐานการเขียนภาษาคอมพิวเตอร์อยู่ 5 ภาษา HTML CSS JAVASCRIPT PYTHON และ C
+                                ปัจจุบันได้เข้าศึกษาที่มหาวิทยาลัยเทคโนโลยีสุรนารี (มทส.) ในสาขาของวิศวกรรมเมคคาทรอนิกส์ ชั้นปีที่ 2 ผมได้ตั้งใจในสิ่งที่ผมอยากเรียนมาเรื่อย ๆ จนเริ่มหาโปรเจคทำเล่น ๆ
+                                พอให้ได้เรียนรู้ในสิ่งใหม่ ๆ -->
+                                <p class="about-p">สวัสดีครับ ผมนายสิรภพ ไกรคุ้ม (Sirapob Kraikhom) ปัจจุบันอายุ 20 ปี ได้เข้าศึกษาที่มหาวิทยาลัยเทคโนโลยีสุรนารี (มทส.) ในสาขาของวิศวกรรมเมคคาทรอนิกส์ ชั้นปีที่ 2
+                                    <br>สามารถดูผลงานได้ที่ข้างล่างนี้เลยครับ
+                            </p>
+                            <a href="#work" class="btn2">ดูผลงาน</a>
+                            </div>
+                            
+                        
+                    </div>
+                </div>
+            </div>
+
+    
+
+        </section>
+
+
+
+
+
+        <section class="portfolio section" id="work">
+            <div class="background-bg">
+                <!-- <div class="overlay overlay-sm">
+                    <img src="" alt="">
+                </div> -->
+            </div>
+
+            <div class="container">
+                <div class="section-header">
+                    <h3 class="title" data-title="MY WORKS">ผลงานที่สร้างขึ้น</h3>
+                    <p class="text-section">*ทั้งหมดนี้ไม่มีการใช้ Template แต่อย่างใด*</p>
+                </div>
+
+                <div class="section-body">
+                    <div class="filter">
+                        <button class="filter-btn active" data-filter="*">ทั้งหมด</button>
+                        <button class="filter-btn" data-filter=".project">โปรเจค</button>
+                        <button class="filter-btn" data-filter=".school">งานมหาลัยและโรงเรียน</button>
+                        <button class="filter-btn" data-filter=".other">อื่น ๆ</button>
+                    </div>
+
+                    <div class="grid">
+                        <div class="grid-item project"> <!--Solidwork-->
+                            <div class="gallery-image">
+                                <img src="./img/WorkImg/timemacro.png" alt="">
+                                <a class="venobox" title="Timelapse - MacroPad By Xirapob | (สามารถดูผ่าน Youtube ได้ถ้าวิดีโอเกิดกระตุก)" data-autoplay="true" data-vbtype="video" href="https://youtu.be/6GUxZ9C0rqk?si=sK7VQZmOXgh9jvCi" data-href="https://youtu.be/6GUxZ9C0rqk?si=sK7VQZmOXgh9jvCi">
+                                <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูเพิ่มเติม</p></div>
+                                    <div class="img-description">
+                                        <h3>Timelapse - MacroPad By Xirapob</h3>
+                                        <h5>คลิป Timelapse ตั้งแต่ที่เริ่มสร้างโปรเจคและออกแบบคีย์บอร์ดมาโครใน Solidworks<br> (ทุก Part เขียนเองทุกชิ้นโดยมี Ref. ประกอบ) </h5>
+                                    </div>
+                                </div></a>
+                            </div>
+                        </div>
+                        <div class="grid-item project"> <!--Solidworkdraw-->
+                            <div class="gallery-image">
+                                <img src="./img/WorkImg/drawmacro.png" alt="">
+                                <a class="venobox" title="(กด Fit to width หรือ Ctrl + \ เพื่อเห็นไฟล์ได้เต็มหน้าจอ)" data-vbtype="iframe" href="./works/Pdf/Xira-MacroPad.pdf" data-href="./works/Pdf/Xira-MacroPad.pdf">
+                                <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูเพิ่มเติม</p></div>
+                                    <div class="img-description">
+                                        <h3>Drawing - MacroPad By Xirapob</h3>
+                                        <h5>Drawing ของ MacroPad ใน Solidworks<br> (อาจจะไม่สมบูรณ์) (ทุก Part เขียนเองทุกชิ้นโดยมี Ref. ประกอบ) </h5>
+                                    </div>
+                                </div></a>
+                            </div>
+                        </div>
+                        <div class="grid-item project"> <!--UFO-->
+                            <div class="gallery-image">
+                                <img src="./img/WorkImg/ufo.jpg" alt="">
+                                <a class="venobox" title="https://www.facebook.com/share/p/2Qvpw7wamReZv8Q3/" href="./img/WorkImg/ufofull.png">
+                                <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูเพิ่มเติม</p></div>
+                                    <div class="img-description">
+                                        <h3>SUT-CUBESAT ได้ผ่านรอบการคัดเลือกรอบที่ 2 เข้าชิงการเป็นตัวแทนประเทศไทย</h3>
+                                        <h5>เพื่อออกแบบและสร้างดาวเทียม CubeSat Engineering model ภายใต้โครงการ<br> APSCO CubeSat Competition(ACC)-Thailand</h5>
+                                    </div>
+                                </div></a>
+                            </div>
+                        </div>
+                        <div class="grid-item project"> <!--CLASSES-->
+                            <div class="gallery-image">
+                                <img src="./img/WorkImg/Classesweb.png" alt="">
+                                <a class="venobox" title="(กด Fit to width หรือ Ctrl + \ เพื่อเห็นไฟล์ได้เต็มหน้าจอ)" data-vbtype="iframe" href="./works/Pdf/CLASSES.pdf" data-href="./works/Pdf/CLASSES.pdf">
+                                <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูเพิ่มเติม</p></div>
+                                    <div class="img-description">
+                                        <h3>เว็บไซต์ CLASSES</h3>
+                                        <h5>เป็นโปรเจคเว็บไซต์สำหรับการเรียนผ่านทางออนไลน์<br>(ปัจจุบันยกเลิกแผนการแล้ว)</h5>
+                                    </div>
+                                </div></a>
+                            </div>
+                        </div>
+                        <div class="grid-item project"> <!--DISCORDBOT-->
+                            <div class="gallery-image">
+                                <img src="./img/WorkImg/work-discordbot.png" alt="">
+                                <a class="venobox" title="(กด Fit to width หรือ Ctrl + \ เพื่อเห็นไฟล์ได้เต็มหน้าจอ)" data-vbtype="iframe" href="./works/Pdf/M.6-5-BOT.pdf" data-href="./works/Pdf/M.6-5-BOT.pdf">
+                                <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูเพิ่มเติม</p></div>
+                                    <div class="img-description">
+                                        <h3>M.6/5 BOT (Discord Bot)</h3>
+                                        <h5>เป็นโปรเจคที่ทำให้บอทมีประโยชน์กับเพื่อน ๆ ในห้องของผม<br>(ปัจจุบันยกเลิกแผนการแล้ว)</h5>
+                                    </div>
+                                </div></a>
+                            </div>
+                        </div>
+                        <div class="grid-item school"> <!--SMTE-->
+                            <div class="gallery-image">
+                                <!-- <img src="/img/WorkImg/Screenshot 2021-11-03 134924.png" alt=""> -->
+                                <video class="clip" autoplay loop muted src="./works/smte.mp4"></video>
+                                <a class="venobox" title="คลิปเปิดตัวโครงการ SMTE โรงเรียนบุญวัฒนา | (สามารถดูผ่าน Youtube ได้ถ้าวิดีโอเกิดกระตุก)" data-autoplay="true" data-vbtype="video" href="https://youtu.be/MUr_BfRT3yU" data-href="https://youtu.be/MUr_BfRT3yU">
+                                <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูคลิปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>คลิปเปิดตัวโครงการ SMTE โรงเรียนบุญวัฒนา</h3>
+                                        <h5>เป็นผลงานด้านการตัดต่อและกราฟิก</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                        </div>
+                        <div class="grid-item school"> <!--DEBATE-->
+                            <div class="gallery-image">
+                                <video class="clip"  autoplay loop muted src="./works/debate.mp4"></video>
+                                <a class="venobox" title="คลิปเชิญชวนดูดีเบตที่สภาโรงเรียนบุญวัฒนา | (สามารถดูผ่าน Youtube ได้ถ้าวิดีโอเกิดกระตุก)" data-autoplay="true" data-vbtype="video" href="https://youtu.be/tQOlWcX1lFg" data-href="https://youtu.be/tQOlWcX1lFg">
+                                <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูคลิปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>คลิปเชิญชวนดูดีเบตที่สภาโรงเรียนบุญวัฒนา</h3>
+                                        <h5>เป็นผลงานด้านการตัดต่อและกราฟิก</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                        </div>
+                        <div class="grid-item school"> <!--VOTE-->
+                            <div class="gallery-image">
+                                <video class="clip"  autoplay loop muted src="./works/Vote.mp4"></video>
+                                <a class="venobox" title="คลิปเชิญชวนโหวตสภาโรงเรียนบุญวัฒนา | (สามารถดูผ่าน Youtube ถ้าวิดีโอเกิดอาการกระตุก)" data-autoplay="true" data-vbtype="video" href="https://youtu.be/mps7Wr3rZbs" data-href="https://youtu.be/mps7Wr3rZbs">
+                                <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูคลิปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>คลิปเชิญชวนโหวตสภาโรงเรียนบุญวัฒนา</h3>
+                                        <h5>เป็นผลงานด้านการตัดต่อและกราฟิก</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                        </div>
+                        <div class="grid-item school"> <!--REDDER-->
+                            <div class="gallery-image">
+                                <!-- <img src="/img/WorkImg/Screenshot 2021-11-03 134440.png" alt=""> -->
+                                <video class="clip" autoplay loop muted src="./works/redder.mp4"></video>
+                                <a class="venobox" title="REDDER มุมมองที่แตกต่าง (หนังสั้น) | (สามารถดูผ่าน Youtube ถ้าวิดีโอเกิดอาการกระตุก)" data-autoplay="true" data-vbtype="video" href="https://youtu.be/xsTTyt8rAg0" data-href="https://youtu.be/xsTTyt8rAg0">
+                                <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูคลิปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>REDDER มุมมองที่แตกต่าง (หนังสั้น)</h3>
+                                        <h5>เป็นผลงานด้านการตัดต่อและกราฟิก</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                        </div>
+                        <div class="grid-item school"> <!--REDDER-TRAILER-->
+                            <div class="gallery-image">
+                                <video class="clip" autoplay loop muted src="./works/reddertrailer.mp4"></video>
+                                <a class="venobox" title="ตัวอย่าง REDDER มุมมองที่แตกต่าง | (สามารถดูผ่าน Youtube ถ้าวิดีโอเกิดอาการกระตุก)" data-autoplay="true" data-vbtype="video" href="https://youtu.be/55VJZZkCfHQ" data-href="https://youtu.be/55VJZZkCfHQ">
+                                <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูคลิปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>ตัวอย่าง REDDER มุมมองที่แตกต่าง</h3>
+                                        <h5>เป็นผลงานด้านการตัดต่อและกราฟิก</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                        </div>
+                        <!-- <div class="grid-item school"> 
+                            <div class="gallery-image">
+                                <img src="/img/WorkImg/work-redderposter.png" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>วิดีโอ</h3>
+                                        <h5>ดูคลิปเต็ม</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!--GUCHI MOB SHOE-->
+                        <!-- <div class="grid-item school"> 
+                            <div class="gallery-image">
+                                <video class="clip"  autoplay loop muted src="./works/guchi.mp4"></video>
+                                <a class="venobox" title="GUCHI MOP SHOES (โฆษณาล้อเลียน) | (สามารถดูผ่าน Youtube ถ้าวิดีโอเกิดอาการกระตุก)" data-autoplay="true" data-vbtype="video" href="https://youtu.be/gpAyXqq88LQ" data-href="https://youtu.be/gpAyXqq88LQ">
+                                <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูคลิปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>GUCHI MOP SHOES (โฆษณาล้อเลียน)</h3>
+                                        <h5>เป็นผลงานด้านการตัดต่อและกราฟิก</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                        </div> -->
+                        <!--GOLDMOOD-->
+                        <!-- <div class="grid-item other"> 
+                            <div class="gallery-image">
+                                <video class="clip"  autoplay loop muted src="./works/goldmood.mp4"></video>
+                                <a class="venobox" title="GOLDEN-MOOD | (สามารถดูผ่าน Youtube ถ้าวิดีโอเกิดอาการกระตุก)" data-autoplay="true" data-vbtype="video" href="https://youtu.be/wumHS8yOk0g" data-href="https://youtu.be/wumHS8yOk0g">
+                                <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูคลิปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>GOLDEN-MOOD</h3>
+                                        <h5>เป็นผลงานด้านการตัดต่อ</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                        </div> -->
+                        <!--INTRO1-->
+                        <!-- <div class="grid-item other"> 
+                            <div class="gallery-image">
+                                <video class="clip" autoplay loop muted src="./works/intro.mp4"></video>
+                                <a class="venobox" title="Intro for MIXZEFX | (สามารถดูผ่าน Youtube ถ้าวิดีโอเกิดอาการกระตุก)" data-autoplay="true" data-vbtype="video" href="https://youtu.be/ZWnyyU6z_oM" data-href="https://youtu.be/ZWnyyU6z_oM">
+                                <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูคลิปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>Intro for MIXZEFX</h3>
+                                        <h5>เป็นผลงานด้านการตัดต่อและกราฟิก</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                        </div> -->
+                        <!--INTRO2-->
+                        <!-- <div class="grid-item other"> 
+                            <div class="gallery-image">
+                                <video class="clip"  autoplay loop muted src="./works/intro2.mp4"></video>
+                                <a class="venobox" title="Intro for NEXUS | (สามารถดูผ่าน Youtube ถ้าวิดีโอเกิดอาการกระตุก)" data-autoplay="true" data-vbtype="video" href="https://youtu.be/8lQP8uty4sI" data-href="https://youtu.be/8lQP8uty4sI">
+                                <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูคลิปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>Intro for NEXUS</h3>
+                                        <h5>เป็นผลงานด้านการตัดต่อและกราฟิก</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                        </div> -->
+                        <!--INTRO3-->
+                        <!-- <div class="grid-item other"> 
+                            <div class="gallery-image">
+                                <video class="clip"  autoplay loop muted src="./works/intro3.mp4"></video>
+                                <a class="venobox" title="Intro for FEXIZ | (สามารถดูผ่าน Youtube ถ้าวิดีโอเกิดอาการกระตุก)" data-autoplay="true" data-vbtype="video" data-href="https://youtu.be/31--0rQQGkA" href="https://youtu.be/31--0rQQGkA">
+                                <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูคลิปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>Intro for FEXIZ</h3>
+                                        <h5>เป็นผลงานด้านการตัดต่อและกราฟิก</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                        </div> -->
+                        <!--INTRO4-->
+                        <!-- <div class="grid-item other"> 
+                            <div class="gallery-image">
+                                <video class="clip"  autoplay loop muted src="./works/intro4.mp4"></video>
+                                <a class="venobox" title="Intro for EpicArt | (สามารถดูผ่าน Youtube ถ้าวิดีโอเกิดอาการกระตุก)" data-autoplay="true" data-vbtype="video" href="https://youtu.be/tqCWkgBaJ7E" data-href="https://youtu.be/tqCWkgBaJ7E">
+                                <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูคลิปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>Intro for EpicArt</h3>
+                                        <h5>เป็นผลงานด้านการตัดต่อและกราฟิก</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                        </div> -->
+                        <div class="grid-item other"> <!--NIGHTMARE-->
+                            <div class="gallery-image">
+                                <video class="clip"  autoplay loop muted src="./works/nightmare.mp4"></video>
+                                <a class="venobox" title="MiXZeRXe - Nightmare | (สามารถดูผ่าน Youtube ถ้าวิดีโอเกิดอาการกระตุก)" data-autoplay="true" data-vbtype="video" href="https://youtu.be/1ZpjAsdoQ-I" data-href="https://youtu.be/1ZpjAsdoQ-I">
+                                <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูคลิปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>MiXZeRXe - Nightmare</h3>
+                                        <h5>เป็นผลงานด้านการตัดต่อและทำเพลง</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                        </div>
+                        <!-- <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        
+        <section class="portfolio section" id="certificate">
+            <div class="background-bg">
+                <!-- <div class="overlay overlay-sm">
+                    <img src="" alt="">
+                </div> -->
+            </div>
+
+            <div class="container">
+                <div class="section-header">
+                    <h3 class="title" data-title="CERTIFICATES">เกียรติบัตร</h3>
+                </div>
+
+                <div class="section-body">
+                    <!-- <div class="filter">
+                        <button class="filter-btn active" data-filter="*">ทั้งหมด</button>
+                        <button class="filter-btn" data-filter=".project">โปรเจค</button>
+                        <button class="filter-btn" data-filter=".school">งานโรงเรียน</button>
+                        <button class="filter-btn" data-filter=".other">อื่น ๆ</button>
+                    </div> -->
+
+                    <div class="grid-cer">
+                        <!--1-->
+                        <!-- <div class="grid-item-cer"> 
+                            <div class="cer-image">
+                                <img src="./img/WorkImg/Certificate/1.png" alt="">
+                                <a class="venobox" href="./img/WorkImg/Certificate/1.png">
+                                    <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูรูปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>ได้ผ่านการเรียนในรายวิชา</h3>
+                                        <h5>ทักษะการเขียนโปรแกรมคอมพิวเตอร์ด้วยภาษาซี <br>(12 ชั่วโมง) ผ่านเว็บไซต์ ThaiMOOC</h5>
+                                    </div>
+                                </div></a>
+                            </div>
+                        </div> -->
+                        <!--NUMBER1-->
+                        <div class="grid-item-cer"> 
+                            <div class="cer-image">
+                                <img src="./img/WorkImg/Certificate/no1.jpg" alt="">
+                                <a class="venobox" href="./img/WorkImg/Certificate/no1.jpg">
+                                    <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูรูปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>รับรางวัลผู้มีผลการเรียนเป็นอันดับหนึ่ง</h3>
+                                        <h5>ในหลักสูตรวิศวกรรมเมคคาทรอนิกส์ชั้นปีที่ 2 <br>ด้วยคะแนนเฉลี่ยนสะสม 4.00</h5>
+                                    </div>
+                                </div></a>
+                            </div>
+                        </div>
+                        <!--NUMBER2-->
+                        <div class="grid-item-cer"> 
+                            <div class="cer-image">
+                                <img src="./img/WorkImg/Certificate/no2.JPG" alt="">
+                                <a class="venobox" href="./img/WorkImg/Certificate/no2.JPG">
+                                    <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูรูปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>ได้รับการคัดเลือกให้เข้าร่วมในกิจกรรมการของโครงการ ACC-Thailand</h3>
+                                        <h5></h5>
+                                    </div>
+                                </div></a>
+                            </div>
+                        </div>
+                        <!--2-->
+                        <!-- <div class="grid-item-cer"> 
+                            <div class="cer-image">
+                                <img src="./img/WorkImg/Certificate/2.png" alt="">
+                                <a class="venobox" href="./img/WorkImg/Certificate/2.png">
+                                <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูรูปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>ได้ผ่านการเรียนในรายวิชา</h3>
+                                        <h5>การเขียนโปรแกรมคอมพิวเตอร์พื้นฐาน ด้วยภาษาซี 1 <br>(5 ชั่วโมง) ผ่านเว็บไซต์ ThaiMOOC</h5>
+                                    </div>
+                                </div></a>
+                            </div>
+                        </div> -->
+                        <!--3-->
+                        <!-- <div class="grid-item-cer"> 
+                            <div class="cer-image">
+                                <img src="./img/WorkImg/Certificate/3.png" alt="">
+                                <a class="venobox" href="./img/WorkImg/Certificate/3.png">
+                                    <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูรูปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>ได้ผ่านการเรียนในรายวิชา</h3>
+                                        <h5>ภาษา Python สำหรับวิทยาการข้อมูล <br>(6 ชั่วโมง) ผ่านเว็บไซต์ ThaiMOOC</h5>
+                                    </div>
+                                </div></a>
+                            </div>
+                        </div> -->
+                        <!--4-->
+                        <!-- <div class="grid-item-cer"> 
+                            <div class="cer-image">
+                                <img src="./img/WorkImg/Certificate/4.png" alt="">
+                                <a class="venobox" href="./img/WorkImg/Certificate/4.png">
+                                    <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูรูปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>ได้ผ่านการเรียนในรายวิชา</h3>
+                                        <h5>การสร้างหน้าเว็บเบื้องต้นด้วย HTML และ CSS <br>(10 ชั่วโมง) ผ่านเว็บไซต์ ThaiMOOC</h5>
+                                    </div>
+                                </div></a>
+                            </div>
+                        </div> -->
+                        <!--5-->
+                        <!-- <div class="grid-item-cer"> 
+                            <div class="cer-image">
+                                <img src="./img/WorkImg/Certificate/5.png" alt="">
+                                <a class="venobox" href="./img/WorkImg/Certificate/5.png">
+                                    <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูรูปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>ได้ผ่านการเรียนในรายวิชา</h3>
+                                        <h5>โปรแกรมคอมพิวเตอร์และขั้นตอนวิธีทางคอมพิวเตอร์ <br>(10 ชั่วโมง) ผ่านเว็บไซต์ ThaiMOOC</h5>
+                                    </div>
+                                </div></a>
+                            </div>
+                        </div> -->
+                        <!--6-->
+                        <!-- <div class="grid-item-cer"> 
+                            <div class="cer-image">
+                                <img src="./img/WorkImg/Certificate/6.png" alt="">
+                                <a class="venobox" href="./img/WorkImg/Certificate/6.png">
+                                    <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูรูปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>ได้ผ่านการเรียนในรายวิชา</h3>
+                                        <h5>ทักษะคอมพิวเตอร์และเทคโนโลยีสารสนเทศและการสื่อสาร <br>(45 ชั่วโมง) ผ่านเว็บไซต์ ThaiMOOC</h5>
+                                    </div>
+                                </div></a>
+                            </div>
+                        </div> -->
+                        <div class="grid-item-cer"> <!--7-->
+                            <div class="cer-image">
+                                <img src="./img/WorkImg/Certificate/7.png" alt="">
+                                <a class="venobox" href="./img/WorkImg/Certificate/7.png">
+                                    <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูรูปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>ได้สำเร็จการเรียนรู้</h3>
+                                        <h5>Responsive Web Design <br>หรือการเขียนเว็บไซต์ให้ตอบสนองกับทุกอุปกรณ์ <br>(300 ชั่วโมง) ผ่านเว็บไซต์ freeCodeCamp</h5>
+                                    </div>
+                                </div></a>
+                            </div>
+                        </div>
+                        <!-- <div class="grid-item school"> 
+                            <div class="gallery-image">
+                                <img src="/img/WorkImg/work-redderposter.png" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>วิดีโอ</h3>
+                                        <h5>ดูคลิปเต็ม</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="grid-item-cer"> <!--8-->
+                            <div class="cer-image">
+                                <img src="./img/WorkImg/Certificate/8.png" alt="">
+                                <a class="venobox" href="./img/WorkImg/Certificate/8.png">
+                                    <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูรูปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>ผ่านการทำโจทย์ฝึกทักษะ</h3>
+                                        <h5>เขียนโปรแกรมด้วยภาษาต่าง ๆ ที่ถนัดมากกว่า 20 ข้อผ่านเว็บไซต์ DevLab ของ Borntodev</h5>
+                                    </div>
+                                </div></a>
+                            </div>
+                        </div>
+                        <div class="grid-item-cer"> <!--9-->
+                            <div class="cer-image">
+                                <img src="./img/WorkImg/Certificate/9.png" alt="">
+                                <a class="venobox" href="./img/WorkImg/Certificate/9.png">
+                                    <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูรูปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>เข้าร่วมโครงการและผ่านการทดสอบ</h3>
+                                        <h5>Graphic & Animation Quiz 2021 มหาวิทยาลัยคริสเตียน</h5>
+                                    </div>
+                                </div></a>
+                            </div>
+                        </div>
+                        <!--10-->
+                        <!-- <div class="grid-item-cer"> 
+                            <div class="cer-image">
+                                <img src="./img/WorkImg/Certificate/10.png" alt="">
+                                <a class="venobox" href="./img/WorkImg/Certificate/10.png">
+                                    <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูรูปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>เข้าร่วมกิจกรรมทางวิชาการ</h3>
+                                        <h5>แนะนำหลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาการออกแบบกราฟิกและมัลติมีเดีย มหาวิทยาลัยคริสเตียน</h5>
+                                    </div>
+                                </div></a>
+                            </div>
+                        </div> -->
+                        <!--11-->
+                        <!-- <div class="grid-item-cer"> 
+                            <div class="cer-image">
+                                <img src="./img/WorkImg/Certificate/12.png" alt="">
+                                <a class="venobox" href="./img/WorkImg/Certificate/12.png">
+                                    <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูรูปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>เข้าร่วมกิจกรรม</h3>
+                                        <h5>แนะนำหลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาการจัดการงารวิศวกรรม มหาวิทยาลัยสงขลานครินทร์</h5>
+                                    </div>
+                                </div></a>
+                            </div>
+                        </div> -->
+                        <!-- <div class="grid-item"> 
+                            <div class="gallery-image">
+                                <img src="/img/WorkImg/Certificate/12.png" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>วิดีโอ</h3>
+                                        <h5>ดูคลิปเต็ม</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!--13-->
+                        <!-- <div class="grid-item-cer"> 
+                            <div class="cer-image">
+                                <img src="./img/WorkImg/Certificate/13.png" alt="">
+                                <a class="venobox" href="./img/WorkImg/Certificate/13.png">
+                                    <div class="img-overlay">
+                                    <div class="plus"><p>คลิกเพื่อดูรูปเต็ม</p></div>
+                                    <div class="img-description">
+                                        <h3>เข้าร่วมเสวนาในรูปแบบออนไลน์</h3>
+                                        <h5>แนะนำสำนักวิชาวิศวกรรมศาสตร์ มหาวิทยาลัยเทคโนโลยีสุรนารี</h5>
+                                    </div>
+                                </div></a>
+                            </div>
+                        </div> -->
+                        <!-- <div class="grid-item"> 
+                            <div class="gallery-image">
+                                <img src="/img/WorkImg/Certificate/14.png" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>วิดีโอ</h3>
+                                        <h5>ดูคลิปเต็ม</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./javascript/isotope.pkgd.min.js"></script>
+    <script src="./javascript/script.js"></script>
+    <script src="./venobox/venobox.min.js"></script>
+</main>
+</body>
+</html>
+
